@@ -1,0 +1,40 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+
+.footer {
+  background-color: #2a2a2c;
+  color: aliceblue;
+  margin: 0px auto;
+  /* background-image: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
+  padding: 20px 0px 20px 0px;
+}
+.jumbotron {
+  padding: 70px 30px 70px 30px;
+  margin: 0px auto;
+  background-image: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  color: black;
+}
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: aliceblue;
+}
+
+.navbar-dark {
+  background-color: #181616;
+  color: #cf901b;
+}
+article {
+  background-image: url("https://cdn.pixabay.com/photo/2014/06/11/17/00/cook-366875_1280.jpg");
+  color: aliceblue;
+}

@@ -1,0 +1,27 @@
+.box-layout {
+  align-items: center;
+  background: url("./hero.jpg") !important;
+  background-size: cover;
+  display: flex;
+  height: 110vh;
+  justify-content: center;
+  width: 98.9vw;
+  margin-bottom: 20px;
+}
+
+.box-layout__box {
+  background: fade-out(white, 0.15);
+  border-radius: 3px;
+  padding: 3.2rem 1.6rem;
+  text-align: center;
+  width: 25rem;
+  color: #d69178;
+}
+
+.box-layout__title {
+  margin: 0 0 1.6rem 0;
+  line-height: 1;
+  color: #cb7040;
+  font-style: italic;
+  font-family: Apple Chancery, cursive;
+}
