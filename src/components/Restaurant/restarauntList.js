@@ -14,14 +14,12 @@ const RestaurantList = () => {
   
   }, [])
   return (
-    <div className="col-12 col-md-4" style={{marginBottom:"20px"}} >
-    <Card  style={{maxWidth:"30 0px"}}>
+    <Card className="col-12 col-md-4" style={{marginBottom:"20px"}} >
       {restaurants.map(({id,restaurant}) =>(
        <Restaurant  name={restaurant.name} description={restaurant.description} imgURL={restaurant.imgURL}  />
     
-  ))}
-</Card>  
-</div>
+  ))} 
+</Card>
 );
 }
 

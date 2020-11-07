@@ -9,13 +9,13 @@ const Header = ({handleLogOut}) => {
     return(
     <React.Fragment>
       <Navbar dark expand="md" fixed="top" >
-                    <div className="container">
+                    <div className="container" >
                         <NavbarToggler onClick={()=>{
                         setisNavOpen = !isNavOpen
                         }} />
                         <NavbarBrand className="mr-auto" href="/"><img src='assets/images/10.jpg' height="40" width="50" alt='LOGO' /></NavbarBrand>
                         <Collapse isOpen={isNavOpen} navbar>
-                            <Nav navbar>
+                            <Nav navbar >
                             <NavItem>
                                 <NavLink className="nav-link"  to='/home'> Home</NavLink>
                             </NavItem>
@@ -25,31 +25,17 @@ const Header = ({handleLogOut}) => {
                             <NavItem>
                                 <NavLink className="nav-link"  to='/menu'> Restaurants</NavLink>
                             </NavItem>
-                            <NavItem>
-                                <NavLink className="nav-link" to='/contactus'> Contact Us</NavLink>
-                            </NavItem>
-                            <Button onClick={handleLogOut}> 
-                                Log-Out 
-                            </Button>
                             </Nav>
                             <Form inline>
                                <input type="text" placeholder="Search" className="mr-sm-2" />
                                <Button variant="outline-success">Search</Button>
                             </Form>
+                            <Button onClick={handleLogOut} style={{marginLeft:"23.5rem"}}> 
+                                Log-Out 
+                            </Button>
                         </Collapse>
                     </div>
                 </Navbar>
-                
-      {/* <Jumbotron>
-           <div className="container" id="jumpo">
-               <div className="row row-header">
-                   <div className="col-12 col-sm-6">
-                       <h1>Fork Full</h1>
-                   </div>
-               </div>
-           </div>
-       </Jumbotron> */}
-       {/* <Hero handleLogOut={handleLogOut}/> */}
     </React.Fragment>
     );
   }

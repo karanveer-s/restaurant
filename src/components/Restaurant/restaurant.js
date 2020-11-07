@@ -4,7 +4,7 @@ import {CardImg, CardText, CardBody,
 
 function Restaurant({ name, description, imgURL }){
   return(
-        <div style={{marginBottom:"20px"}}>
+    <div style={{maxWidth:"30 0px" }}>
                   <CardImg width="100%" src={imgURL} alt={name} style={{objectFit:"contain"}} />
                   <CardBody>
                       <CardTitle><strong>{name}</strong></CardTitle>
