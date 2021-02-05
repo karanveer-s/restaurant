@@ -4,6 +4,8 @@ import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 const Admin = () => {
   return (
     <Form inline style={{display:"flex" , justifyContent:"center", alignItems:"center", flexDirection:"column" , backgroundImage:"url("+"https://img.freepik.com/free-photo/white-wall-texture-background-backdrop-composition_1962-1027.jpg?size=626&ext=jpg&ga=GA1.2.1192447133.1603522449"+")" , height:"100vh"}}>
+      <h1>Admin Control</h1>
+      <br/>
       <FormGroup className="mb-2 mr-sm-2 mb-sm-0">
         <Label for="adminName" className="mr-sm-2">Name</Label>
         <Input type="text" name="adminName" placeholder="Restaurant Name" />
